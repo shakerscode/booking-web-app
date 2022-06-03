@@ -1,9 +1,12 @@
 import React from 'react';
+import HomeSearch from './HomeSearch';
+import HomMain from './HomMain';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Hello world</h1>
+        <div className=''>
+           <HomMain></HomMain>
+           <HomeSearch></HomeSearch>
         </div>
     );
 };
