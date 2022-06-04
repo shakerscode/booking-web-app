@@ -1,0 +1,27 @@
+.App{
+    overflow: hidden; 
+}
+
+.icon-height{
+    height: 25px;
+}
+
+@media screen and (max-width: 650px) {
+    .calender-position-mobile{
+        position: absolute; 
+        left: 28px; 
+    }
+    .person-counter-mobile{ 
+        position: absolute;
+        top: 17rem;
+        left: 1.3rem; 
+        
+    }
+    .mobile-width{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .mobile-search-text{
+        padding: 30px 20px;
+    }
+}

@@ -6,12 +6,13 @@ import Hotels  from "./Pages/Hotels/Hotels";
 import Hotel  from "./Pages/Hotel/Hotel";
 import Navbar from "./Pages/Shared/Navbar";
 import Register from "./Pages/Register/Register";
+import './App.css'
 
 
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
